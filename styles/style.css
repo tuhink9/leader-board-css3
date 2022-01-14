@@ -25,10 +25,12 @@ ul{
 .left{
     display: flex;
     align-items: center;
+    margin-left: 605px;
 }
 .right{
     display: flex;
     align-items: center;
+    margin-right: 605px;
 }
 li{
     list-style: none;
@@ -150,8 +152,29 @@ hr{
      header{
          width: 400px;
      }
+     ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     /* ul{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left{
+        display: flex;
+        align-items: center;
+        margin-left: 605px;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        margin-right: 605px;
+    } */
      main{
-         width: auto;
+         width: 400px;
      }
      .section-title{
          margin-bottom: 20px;
